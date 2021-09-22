@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 30, 2021, 5:04:27 PM
+    Author     : Ken
+*/
+:root {
+    --primary-clr: #37ECFF;
+    --accent-clr: #F9A826;
+}
+
+body {
+    background: skyblue;
+}
+
+.navbar {
+    border-bottom: #008ed6 2px solid;
+    /* opacity: 0.8; */
+}
+
+#showcase-text {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 4rem 0rem;
+    padding: 3rem 3rem 0;
+    height: auto;
+}
+
+#showcase-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#showcase-content {
+    margin-top: 3rem;
+}
+
+#showcase-text button,
+#showcase-text a.btn {
+    display: block;
+    margin: 1.5rem 0;
+    width: 20rem;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background-image: url("../img/undraw_subscribe_bleu.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /* background-image: url("../img/undraw_contact_us_orange.svg"); */
+    /* background-image: url("../img/undraw_contact_us_15o2.svg"); */
+
+    opacity: 0.4;
+    z-index: -1;
+
+}
+
+#contact {
+    position: relative;
+    z-index: 100;
+}
+
+#contact-card {
+    background-color: rgba(255, 255, 255, 0.9);
+}
