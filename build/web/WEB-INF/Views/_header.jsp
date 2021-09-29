@@ -8,7 +8,6 @@
 <c:url var="listeUrl" value="/Evaluation/liste"></c:url>
 <c:url var="contactUrl" value="/Accueil/contact"></c:url>
 <c:url var="modifierUrl" value="/Evaluation/modifier"></c:url>
-<c:url var="supprimerUrl" value="/Evaluation/supprimer"></c:url>
     
 <c:url var="styleCss" value="/ressource/css/style.css"></c:url>
     

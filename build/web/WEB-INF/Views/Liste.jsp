@@ -3,7 +3,17 @@
     Created on : Sep 19, 2021, 11:17:15 AM
     Author     : Ken
 --%>
-   
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%--  LIENS URL --%>
+<c:url var="accueilUrl" value="/Accueil/accueil"></c:url>
+<c:url var="ajoutUrl" value="/Evaluation/ajouter"></c:url>
+<c:url var="listeUrl" value="/Evaluation/liste"></c:url>
+<c:url var="contactUrl" value="/Accueil/contact"></c:url>
+<c:url var="modifierUrl" value="/Evaluation/modifier"></c:url>
+<c:url var="supprimerUrl" value="/Evaluation/supprimer"></c:url>
+    
+<c:url var="styleCss" value="/ressource/css/style.css"></c:url>
+    
 <jsp:include page="_header.jsp"/>
 
     <main>
